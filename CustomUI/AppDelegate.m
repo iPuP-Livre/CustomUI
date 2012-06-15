@@ -3,10 +3,11 @@
 //  CustomUI
 //
 //  Created by Jérémy Lagrue on 12/04/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 iPuP SARL. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -17,6 +18,13 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    MainViewController *mainViewController = [[MainViewController alloc] initWithNibName:@"MainViewController" bundle:nil];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+    
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage imageNamed:@"barre_titre_fond-gris-pattern.png"]  forBarMetrics:UIBarMetricsDefault];
+    
+    [self.window setRootViewController:navController];
     [self.window makeKeyAndVisible];
     return YES;
 }

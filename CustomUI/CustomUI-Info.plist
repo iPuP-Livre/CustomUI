@@ -34,5 +34,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SimplyDelicious.ttf</string>
+		<string>BlackBoard.ttf</string>
+		<string>Sports World-Regular.ttf</string>
+	</array>
 </dict>
 </plist>

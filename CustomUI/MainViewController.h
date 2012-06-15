@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  MainViewController.h
 //  CustomUI
 //
 //  Created by Jérémy Lagrue on 12/04/12.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface MainViewController : UIViewController
+{
+    IBOutlet UISlider *_slider;
+    IBOutlet UISwitch*_switch;
+}
 
 @end

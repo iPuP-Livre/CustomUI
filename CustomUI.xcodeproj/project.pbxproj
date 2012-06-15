@@ -13,6 +13,11 @@
 		3F8C84A91536B7090078B9BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C84A71536B7090078B9BD /* InfoPlist.strings */; };
 		3F8C84AB1536B7090078B9BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C84AA1536B7090078B9BD /* main.m */; };
 		3F8C84AF1536B7090078B9BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C84AE1536B7090078B9BD /* AppDelegate.m */; };
+		3F8C84B81536B7750078B9BD /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8C84B61536B7750078B9BD /* MainViewController.m */; };
+		3F8C84B91536B7750078B9BD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C84B71536B7750078B9BD /* MainViewController.xib */; };
+		3F8C84BB1536CA4F0078B9BD /* barre_titre_fond-gris-pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C84BA1536CA4F0078B9BD /* barre_titre_fond-gris-pattern.png */; };
+		3F8C84BD1536CDB90078B9BD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C84BC1536CDB90078B9BD /* logo.png */; };
+		3F8C84CB1537063B0078B9BD /* BlackBoard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F8C84CA1537063B0078B9BD /* BlackBoard.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,18 @@
 		3F8C849E1536B7090078B9BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F8C84A01536B7090078B9BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F8C84A21536B7090078B9BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F8C84A61536B7090078B9BD /* CustomUI-Info.plist */ = {isa = PBXFileReference; path = "CustomUI-Info.plist"; sourceTree = "<group>"; };
+		3F8C84A61536B7090078B9BD /* CustomUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomUI-Info.plist"; sourceTree = "<group>"; };
 		3F8C84A81536B7090078B9BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F8C84AA1536B7090078B9BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F8C84AC1536B7090078B9BD /* CustomUI-Prefix.pch */ = {isa = PBXFileReference; path = "CustomUI-Prefix.pch"; sourceTree = "<group>"; };
-		3F8C84AD1536B7090078B9BD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F8C84AC1536B7090078B9BD /* CustomUI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomUI-Prefix.pch"; sourceTree = "<group>"; };
+		3F8C84AD1536B7090078B9BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F8C84AE1536B7090078B9BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F8C84B51536B7750078B9BD /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3F8C84B61536B7750078B9BD /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3F8C84B71536B7750078B9BD /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3F8C84BA1536CA4F0078B9BD /* barre_titre_fond-gris-pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barre_titre_fond-gris-pattern.png"; sourceTree = "<group>"; };
+		3F8C84BC1536CDB90078B9BD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		3F8C84CA1537063B0078B9BD /* BlackBoard.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BlackBoard.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +85,9 @@
 			children = (
 				3F8C84AD1536B7090078B9BD /* AppDelegate.h */,
 				3F8C84AE1536B7090078B9BD /* AppDelegate.m */,
+				3F8C84B51536B7750078B9BD /* MainViewController.h */,
+				3F8C84B61536B7750078B9BD /* MainViewController.m */,
+				3F8C84B71536B7750078B9BD /* MainViewController.xib */,
 				3F8C84A51536B7090078B9BD /* Supporting Files */,
 			);
 			path = CustomUI;
@@ -82,10 +96,13 @@
 		3F8C84A51536B7090078B9BD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3F8C84BA1536CA4F0078B9BD /* barre_titre_fond-gris-pattern.png */,
+				3F8C84BC1536CDB90078B9BD /* logo.png */,
 				3F8C84A61536B7090078B9BD /* CustomUI-Info.plist */,
 				3F8C84A71536B7090078B9BD /* InfoPlist.strings */,
 				3F8C84AA1536B7090078B9BD /* main.m */,
 				3F8C84AC1536B7090078B9BD /* CustomUI-Prefix.pch */,
+				3F8C84CA1537063B0078B9BD /* BlackBoard.ttf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +158,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F8C84A91536B7090078B9BD /* InfoPlist.strings in Resources */,
+				3F8C84B91536B7750078B9BD /* MainViewController.xib in Resources */,
+				3F8C84BB1536CA4F0078B9BD /* barre_titre_fond-gris-pattern.png in Resources */,
+				3F8C84BD1536CDB90078B9BD /* logo.png in Resources */,
+				3F8C84CB1537063B0078B9BD /* BlackBoard.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +174,7 @@
 			files = (
 				3F8C84AB1536B7090078B9BD /* main.m in Sources */,
 				3F8C84AF1536B7090078B9BD /* AppDelegate.m in Sources */,
+				3F8C84B81536B7750078B9BD /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
